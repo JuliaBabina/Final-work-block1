@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="MXGLk7wPLqT7ajOa1CR5" name="Page-1">
-        <mxGraphModel dx="792" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="792" dy="1426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Начало&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="10" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="180" y="-100" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
                     <mxGeometry relative="1" as="geometry"/>
@@ -78,14 +78,20 @@
                 <mxCell id="29" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="460" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="4">
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;exitX=0.507;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="31" target="35">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="string [] myArray&lt;br&gt;string [] array2&lt;br&gt;int count = 0" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-                    <mxGeometry x="170" y="100" width="140" height="60" as="geometry"/>
+                <mxCell id="31" value="string [] myArray&lt;br&gt;string [] array2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="Главный метод" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="10" y="10" width="100" height="20" as="geometry"/>
+                    <mxGeometry y="60" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="int count = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
